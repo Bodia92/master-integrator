@@ -1,0 +1,1292 @@
+<!DOCTYPE html>
+<html lang="en" data-template-name="index">
+  <head>
+    <meta charset="UTF-8">
+    <title>development | Pricing-page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="images/favicon.ico">
+  <link href="css/app.css" rel="stylesheet"></head>
+  <body class="body--header_green_mod">
+    <div class="preloader"></div>
+    <header class="header">
+      <div class="header__in">
+        <div class="header__wrap"><a class="header__logo" href="index.html"><img class="header__logo_img" src="images/logo.svg" alt="logo"></a>
+          <div class="header__menu_body js-menu-body">
+            <div class="header__menu_top"><a class="header__logo_mob" href="#"><img class="header__logo_img" src="images/logo_mob.svg" alt="logo"></a>
+              <button class="header__menu_close js-menu-close" type="button" aria-label="menu close"></button>
+            </div>
+            <div class="header__menu_wrap">
+              <div class="header__menu_in">
+                <nav class="header_menu">
+                  <ul class="header_menu__list ">
+                    <li class="header_menu__item js-menu-select  "><a class="header_menu__link " href="#" data-text="Features">Features</a>
+                    </li>
+                    <li class="header_menu__item js-menu-select  ">
+                      <div class="header_menu__wrap">
+                        <button class="header_menu__link header_menu__link--submenu js-submenu-trigger" type="button" data-text="Products">Products
+                          <div class="header_menu__icon_wrap">
+                            <svg class="icon icon_arrow_link icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#arrow_link"></use>
+                            </svg>
+                          </div>
+                        </button>
+                        <div class="submenu js-submenu">
+                          <div class="submenu__wrap js-submenu-wrap">
+                            <ul class="submenu__list">
+                              <li class="submenu__item "><a class="submenu__link" href="#">
+                                  <h6 class="submenu__link_title">Workspace</h6>
+                                  <div class="submenu__link_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</div></a></li>
+                              <li class="submenu__item "><a class="submenu__link" href="#">
+                                  <h6 class="submenu__link_title">WIX</h6>
+                                  <div class="submenu__link_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </div></a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="header_menu__item js-menu-select  "><a class="header_menu__link " href="#" data-text="Pricing">Pricing</a>
+                    </li>
+                    <li class="header_menu__item js-menu-select  "><a class="header_menu__link " href="#" data-text="Customer stories">Customer stories</a>
+                    </li>
+                    <li class="header_menu__item js-menu-select  "><a class="header_menu__link " href="#" data-text="About">About</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="header__info">
+                <ul class="header__info__list header__info__list--desktop_mod">
+                  <li class="header__info__item"><a class="header__console_link" href="#">Console</a></li>
+                  <li class="header__info__item"><a class="header__user" href="#">
+                      <svg class="icon icon_user icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#user"></use>
+                      </svg></a></li>
+                </ul>
+                <ul class="header__info__list header__info__list--mob_mod">
+                  <li class="header__info__item"><a class="header__info_link" href="#">Help center</a></li>
+                  <li class="header__info__item"><a class="header__info_link" href="#">Contact us</a></li>
+                </ul>
+                <div class="header__langues">
+                  <button class="header__langues_btn js-lang-trigger" type="button" aria-label="langue en">EN
+                    <div class="header__langues_arrow">
+                      <svg class="icon icon_arrow_link icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#arrow_link"></use>
+                      </svg>
+                    </div>
+                  </button>
+                  <div class="lang_menu js-lang-menu">
+                    <div class="lang_menu__wrap">
+                      <button class="lang_menu__close js-lang-menu-close" type="button" aria-hidden="lang menu close">Back
+                        <div class="lang_menu__close_icon">
+                          <svg class="icon icon_arrow-left icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#arrow-left"></use>
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                    <ul class="lang_menu__list">
+                      <li class="lang_menu__item lang_menu__item--active_mod"><a class="lang_menu__link" href="#"><span class="lang_menu__link_title lang_menu__link_title--dec_mod">En</span><span class="lang_menu__link_title lang_menu__link_title--mob_mod">English</span></a></li>
+                      <li class="lang_menu__item"><a class="lang_menu__link" href="#"><span class="lang_menu__link_title lang_menu__link_title--dec_mod">Fr</span><span class="lang_menu__link_title lang_menu__link_title--mob_mod">Français</span></a></li>
+                      <li class="lang_menu__item"><a class="lang_menu__link" href="#"><span class="lang_menu__link_title lang_menu__link_title--dec_mod">De</span><span class="lang_menu__link_title lang_menu__link_title--mob_mod">Deutsch</span></a></li>
+                      <li class="lang_menu__item"><a class="lang_menu__link" href="#"><span class="lang_menu__link_title lang_menu__link_title--dec_mod">It</span><span class="lang_menu__link_title lang_menu__link_title--mob_mod">Italiano</span></a></li>
+                      <li class="lang_menu__item"><a class="lang_menu__link" href="#"><span class="lang_menu__link_title lang_menu__link_title--dec_mod">Pl</span><span class="lang_menu__link_title lang_menu__link_title--mob_mod">Polski</span></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="header_trigger js-menu-trigger" type="button" aria-label="Toggle menu"><span class="header_trigger__decor"></span></button>
+        </div>
+      </div>
+    </header>
+    <div class="wrapper">
+      <div class="base">
+        <section class="section hero_pricing">
+          <div class="section_in hero_pricing__in">
+            <div class="hero_pricing__bg"><img class="hero_pricing__img" src="images/hero/hero_pricing.svg" alt="pricing bg img"></div>
+            <div class="hero_pricing__content">
+              <h1 class="hero_pricing__title">Fair pricing to keep your business growing</h1>
+              <div class="hero_pricing__text">
+                <p>Whether you need a simple solution or an entire ecosystem, MasterIntegrator offers the perfect fit for your business</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section pricing_tabs">
+          <div class="section_in pricing_tabs_in">
+                    <div class="pricing_tabs__nav">
+                      <div class="pricing_tabs__nav_list swiper">
+                        <div class="swiper-wrapper">
+                          <div class="pricing_tabs__nav_item_wrap swiper-slide">
+                            <button class="pricing_tabs__nav_item pricing_tabs__nav_item--active_state js-pricing-tabs-nav-item" aria-expanded="true" aria-controls="tab-0" type="button">WIX</button>
+                          </div>
+                          <div class="pricing_tabs__nav_item_wrap swiper-slide">
+                            <button class="pricing_tabs__nav_item js-pricing-tabs-nav-item" aria-expanded="false" aria-controls="tab-1" type="button">Workspace</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+            <div class="pricing_tabs__tab_content_wrap">
+              <div class="pricing_tabs__tab_content js-pricing-tabs-tab-content pricing_tabs__tab_content--active_state" id="tab-0" aria-hidden="false">
+                <div class="pricing_tabs__plans_switcher_wrap">
+                          <div class="plans_switcher">
+                            <label class="plans_switcher__switch">
+                              <input class="plans_switcher__input js-switch-input" type="checkbox" data-switch="pricing_tab"><span class="plans_switcher__slider"></span><span class="plans_switcher__label_left">Yearly</span><span class="plans_switcher__label_right">Monthly</span>
+                            </label>
+                          </div>
+                          <div class="plans_switcher__sale">Save up to 30% with annual plans</div>
+                </div>
+                <div class="pricing_tabs__plans">
+                  <div class="pricing_tabs__plans_col">
+                    <h3 class="pricing_tabs__plans_title">Wix is the perfect solution for businesses.</h3>
+                    <div class="pricing_tabs__plans_descr">It includes a set of built-in digital tools to take your company to the next level.</div>
+                    <div class="pricing_tabs__plans_link_wrap"><a class="pricing_tabs__plans_link" href="#">Learn more</a>
+                      <div class="pricing_tabs__plans_icon">
+                        <svg class="icon icon_arrow-right icon--size_mod">
+                          <use xlink:href="images/sprite/sprite.svg#arrow-right"></use>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pricing_tabs__plans_col">
+                    <div class="pricing_tabs__plans_cards js-switch-info" data-switch-block="pricing_tab">
+                              <div class="card_product__card card_product__card--v2_mod card_product__card--popular_mod">
+                                <div class="card_product__wrapper">
+                                  <div class="card_product__top js-card-top">
+                                    <div class="card_product__overlay js-card-overlay"></div>
+                                    <div class="card_product__label"><span class="card_product__label_text">Most popular</span></div>
+                                    <h4 class="card_product__title">WIX Unlimited</h4>
+                                    <div class="card_product__type">
+                                      <div class="card_product__price" data-switch-price="€ 63" data-price="€ 27"></div>
+                                      <div class="card_product__plan">month</div>
+                                    </div>
+                                    <div class="card_product__button"><a class="card_product__btn" href="#">Get started</a></div>
+                                  </div>
+                                  <div class="card_product__bottom">
+                                    <ul class="card_product__list">
+                                      <li class="card_product__item">Custom domain</li>
+                                      <li class="card_product__item">Free SSl sertificate</li>
+                                      <li class="card_product__item">30 GB storage per user</li>
+                                      <li class="card_product__item">Security and management controls</li>
+                                      <li class="card_product__item">Standard Support</li>
+                                    </ul>
+                                    <div class="card_product__more"><a class="card_product__link">See more
+                                        <div class="card_product__icon">
+                                          <svg class="icon icon_arrow-right icon--size_mod">
+                                            <use xlink:href="images/sprite/sprite.svg#arrow-right"></use>
+                                          </svg>
+                                        </div></a></div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="card_product__card card_product__card--v2_mod">
+                                <div class="card_product__wrapper">
+                                  <div class="card_product__top js-card-top">
+                                    <div class="card_product__overlay js-card-overlay"></div>
+                                    <h4 class="card_product__title">WIX Business Basic</h4>
+                                    <div class="card_product__type">
+                                      <div class="card_product__price" data-switch-price="€ 63" data-price="€ 22"></div>
+                                      <div class="card_product__plan">month</div>
+                                    </div>
+                                    <div class="card_product__button"><a class="card_product__btn" href="#">Get started</a></div>
+                                  </div>
+                                  <div class="card_product__bottom">
+                                    <ul class="card_product__list">
+                                      <li class="card_product__item">Custom and secure business email</li>
+                                      <li class="card_product__item">150 participant video meetings</li>
+                                      <li class="card_product__item">2 TB storage per user</li>
+                                      <li class="card_product__item">Security and management controls</li>
+                                      <li class="card_product__item">150 participant video meetings</li>
+                                      <li class="card_product__item">2 TB storage per user</li>
+                                      <li class="card_product__item">Security and management controls</li>
+                                      <li class="card_product__item">Standard Support</li>
+                                    </ul>
+                                    <div class="card_product__more"><a class="card_product__link">See more
+                                        <div class="card_product__icon">
+                                          <svg class="icon icon_arrow-right icon--size_mod">
+                                            <use xlink:href="images/sprite/sprite.svg#arrow-right"></use>
+                                          </svg>
+                                        </div></a></div>
+                                  </div>
+                                </div>
+                              </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pricing_tabs__plans_cards_mob js-plans-card-mob js-switch-info" data-switch-block="pricing_tab">
+                          <div class="plans_card_mob__card">
+                            <div class="plans_card_mob__card_in">
+                              <h4 class="plans_card_mob__title">Unlimited</h4>
+                              <div class="plans_card_mob__type">
+                                <div class="plans_card_mob__price" data-switch-price="€ 63" data-price="27"></div>
+                                <div class="plans_card_mob__plan">€/mo</div>
+                              </div>
+                              <div class="plans_card_mob__button"><a class="plans_card_mob__btn" href="#">Buy</a></div>
+                            </div>
+                          </div>
+                          <div class="plans_card_mob__card">
+                            <div class="plans_card_mob__card_in">
+                              <h4 class="plans_card_mob__title">Business Basic</h4>
+                              <div class="plans_card_mob__type">
+                                <div class="plans_card_mob__price" data-switch-price="€ 63" data-price="22"></div>
+                                <div class="plans_card_mob__plan">€/mo</div>
+                              </div>
+                              <div class="plans_card_mob__button"><a class="plans_card_mob__btn" href="#">Buy</a></div>
+                            </div>
+                          </div>
+                </div>
+                <div class="features__content js-features-content">
+                  <div class="features__list_w">
+                    <div class="features__list_content js-fixed-table-wrap features__list_content--active_state" style="z-index: 0">
+                      <div class="features__list_title_wrap js-table-trigger js-fixed-table-target">
+                        <div class="features__list_title_overlay js-table-overlay"></div>
+                        <div class="features__list_title">eCommerce</div>
+                        <div class="features__list_title_icon">
+                          <svg class="icon icon_arrow-faq icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#arrow-faq"></use>
+                          </svg>
+                        </div>
+                      </div>
+                      <table class="js-fixed-table-content">
+                        <tr>
+                          <td>Online orders</td>
+                          <td>—</td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                        </tr>
+                        <tr>
+                          <td>Secure online payments</td>
+                          <td>—</td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                        </tr>
+                        <tr>
+                          <td>Plans & recurring payments</td>
+                          <td>—</td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                        </tr>
+                        <tr>
+                          <td>Unlimited products</td>
+                          <td>—</td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                        </tr>
+                        <tr>
+                          <td>Abandoned cart recovery</td>
+                          <td>—</td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                        </tr>
+                        <tr>
+                          <td>Sell on social channels</td>
+                          <td>—</td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                        </tr>
+                        <tr>
+                          <td>Subscriptions & memberships</td>
+                          <td>—</td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                        </tr>
+                        <tr>
+                          <td>SMS notifications</td>
+                          <td>—</td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="features__list_content js-fixed-table-wrap features__list_content--active_state" style="z-index: 1">
+                      <div class="features__list_title_wrap js-table-trigger js-fixed-table-target">
+                        <div class="features__list_title_overlay js-table-overlay"></div>
+                        <div class="features__list_title">Website</div>
+                        <div class="features__list_title_icon">
+                          <svg class="icon icon_arrow-faq icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#arrow-faq"></use>
+                          </svg>
+                        </div>
+                      </div>
+                      <table class="js-fixed-table-content">
+                        <tr>
+                          <td>Custom domain</td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                        </tr>
+                        <tr>
+                          <td>Remove Wix ads</td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                        </tr>
+                        <tr>
+                          <td>Free SSL certificate</td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                        </tr>
+                        <tr>
+                          <td>Storage space</td>
+                          <td>5 GB</td>
+                          <td>50 GB</td>
+                        </tr>
+                        <tr>
+                          <td>Video hours</td>
+                          <td>1 hour</td>
+                          <td>5 hours</td>
+                        </tr>
+                        <tr>
+                          <td>Lead-capture forms</td>
+                          <td>10</td>
+                          <td>25</td>
+                        </tr>
+                        <tr>
+                          <td>Fields per form</td>
+                          <td>20</td>
+                          <td>50</td>
+                        </tr>
+                        <tr>
+                          <td>Visitor Analytics app</td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                        </tr>
+                        <tr>
+                          <td>Professional logo</td>
+                          <td>—</td>
+                          <td>—</td>
+                        </tr>
+                        <tr>
+                          <td>Social media logo files</td>
+                          <td>—</td>
+                          <td>—</td>
+                        </tr>
+                        <tr>
+                          <td>Customer care</td>
+                          <td>24/7 customer care</td>
+                          <td>24/7 customer care</td>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="pricing_tabs__tab_content js-pricing-tabs-tab-content" id="tab-1" aria-hidden="true">
+                <div class="pricing_tabs__plans_switcher_wrap">
+                          <div class="plans_switcher">
+                            <label class="plans_switcher__switch">
+                              <input class="plans_switcher__input js-switch-input" type="checkbox" data-switch="pricing_tab"><span class="plans_switcher__slider"></span><span class="plans_switcher__label_left">Yearly</span><span class="plans_switcher__label_right">Monthly</span>
+                            </label>
+                          </div>
+                          <div class="plans_switcher__sale">Save up to 30% with annual plans</div>
+                </div>
+                <div class="pricing_tabs__plans">
+                  <div class="pricing_tabs__plans_col">
+                    <h3 class="pricing_tabs__plans_title">Google Workspace is a great, affordable solution.</h3>
+                    <div class="pricing_tabs__plans_descr">It's exactly what you need!</div>
+                    <div class="pricing_tabs__plans_link_wrap"><a class="pricing_tabs__plans_link" href="#">Learn more</a>
+                      <div class="pricing_tabs__plans_icon">
+                        <svg class="icon icon_arrow-right icon--size_mod">
+                          <use xlink:href="images/sprite/sprite.svg#arrow-right"></use>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pricing_tabs__plans_col">
+                    <div class="pricing_tabs__plans_cards js-switch-info" data-switch-block="pricing_tab">
+                              <div class="card_product__card card_product__card--v2_mod">
+                                <div class="card_product__wrapper">
+                                  <div class="card_product__top js-card-top">
+                                    <div class="card_product__overlay js-card-overlay"></div>
+                                    <h4 class="card_product__title">Workspace Starter</h4>
+                                    <div class="card_product__type">
+                                      <div class="card_product__price" data-switch-price="€ 3" data-price="€ 5"></div>
+                                      <div class="card_product__plan">user / month</div>
+                                    </div>
+                                    <div class="card_product__button"><a class="card_product__btn" href="#">Get started</a></div>
+                                  </div>
+                                  <div class="card_product__bottom">
+                                    <ul class="card_product__list">
+                                      <li class="card_product__item">Custom and secure business email</li>
+                                      <li class="card_product__item">100 participant video meetings</li>
+                                      <li class="card_product__item">30 GB storage per user</li>
+                                      <li class="card_product__item">Security and management controls</li>
+                                      <li class="card_product__item">Standard Support</li>
+                                    </ul>
+                                    <div class="card_product__more"><a class="card_product__link">See more
+                                        <div class="card_product__icon">
+                                          <svg class="icon icon_arrow-right icon--size_mod">
+                                            <use xlink:href="images/sprite/sprite.svg#arrow-right"></use>
+                                          </svg>
+                                        </div></a></div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="card_product__card card_product__card--v2_mod">
+                                <div class="card_product__wrapper">
+                                  <div class="card_product__top js-card-top">
+                                    <div class="card_product__overlay js-card-overlay"></div>
+                                    <h4 class="card_product__title">Workspace Standart</h4>
+                                    <div class="card_product__type">
+                                      <div class="card_product__price" data-switch-price="€ 7" data-price="€ 10"></div>
+                                      <div class="card_product__plan">user / month</div>
+                                    </div>
+                                    <div class="card_product__button"><a class="card_product__btn" href="#">Get started</a></div>
+                                  </div>
+                                  <div class="card_product__bottom">
+                                    <ul class="card_product__list">
+                                      <li class="card_product__item">Custom and secure business email</li>
+                                      <li class="card_product__item">150 participant video meetings</li>
+                                      <li class="card_product__item">2 TB storage per user</li>
+                                      <li class="card_product__item">Security and management controls</li>
+                                      <li class="card_product__item">Standard Support</li>
+                                    </ul>
+                                    <div class="card_product__more"><a class="card_product__link">See more
+                                        <div class="card_product__icon">
+                                          <svg class="icon icon_arrow-right icon--size_mod">
+                                            <use xlink:href="images/sprite/sprite.svg#arrow-right"></use>
+                                          </svg>
+                                        </div></a></div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="card_product__card card_product__card--v2_mod card_product__card--popular_mod">
+                                <div class="card_product__wrapper">
+                                  <div class="card_product__top js-card-top">
+                                    <div class="card_product__overlay js-card-overlay"></div>
+                                    <div class="card_product__label"><span class="card_product__label_text">Most popular</span></div>
+                                    <h4 class="card_product__title">Workspace Plus</h4>
+                                    <div class="card_product__type">
+                                      <div class="card_product__price" data-switch-price="€ 12" data-price="€ 15"></div>
+                                      <div class="card_product__plan">user / month</div>
+                                    </div>
+                                    <div class="card_product__button"><a class="card_product__btn" href="#">Get started</a></div>
+                                  </div>
+                                  <div class="card_product__bottom">
+                                    <ul class="card_product__list">
+                                      <li class="card_product__item">Custom and secure business email</li>
+                                      <li class="card_product__item">150 participant video meetings</li>
+                                      <li class="card_product__item">2 TB storage per user</li>
+                                      <li class="card_product__item">Security and management controls</li>
+                                      <li class="card_product__item">Standard Support</li>
+                                    </ul>
+                                    <div class="card_product__more"><a class="card_product__link">See more
+                                        <div class="card_product__icon">
+                                          <svg class="icon icon_arrow-right icon--size_mod">
+                                            <use xlink:href="images/sprite/sprite.svg#arrow-right"></use>
+                                          </svg>
+                                        </div></a></div>
+                                  </div>
+                                </div>
+                              </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pricing_tabs__plans_cards_mob js-plans-card-mob js-switch-info" data-switch-block="pricing_tab">
+                          <div class="plans_card_mob__card">
+                            <div class="plans_card_mob__card_in">
+                              <h4 class="plans_card_mob__title">Starter</h4>
+                              <div class="plans_card_mob__type">
+                                <div class="plans_card_mob__price" data-switch-price="€ 3" data-price="5"></div>
+                                <div class="plans_card_mob__plan">€/mo</div>
+                              </div>
+                              <div class="plans_card_mob__button"><a class="plans_card_mob__btn" href="#">Buy</a></div>
+                            </div>
+                          </div>
+                          <div class="plans_card_mob__card">
+                            <div class="plans_card_mob__card_in">
+                              <h4 class="plans_card_mob__title">Plus</h4>
+                              <div class="plans_card_mob__type">
+                                <div class="plans_card_mob__price" data-switch-price="€ 7" data-price="10"></div>
+                                <div class="plans_card_mob__plan">€/mo</div>
+                              </div>
+                              <div class="plans_card_mob__button"><a class="plans_card_mob__btn" href="#">Buy</a></div>
+                            </div>
+                          </div>
+                          <div class="plans_card_mob__card">
+                            <div class="plans_card_mob__card_in">
+                              <h4 class="plans_card_mob__title">Standart</h4>
+                              <div class="plans_card_mob__type">
+                                <div class="plans_card_mob__price" data-switch-price="€ 12" data-price="15"></div>
+                                <div class="plans_card_mob__plan">€/mo</div>
+                              </div>
+                              <div class="plans_card_mob__button"><a class="plans_card_mob__btn" href="#">Buy</a></div>
+                            </div>
+                          </div>
+                </div>
+                <div class="features__content js-features-content">
+                  <div class="features__list_w">
+                    <div class="features__list_content js-fixed-table-wrap features__list_content--active_state" style="z-index: 0">
+                      <div class="features__list_title_wrap js-table-trigger js-fixed-table-target">
+                        <div class="features__list_title_overlay js-table-overlay"></div>
+                        <div class="features__list_title">Security &amp; Management</div>
+                        <div class="features__list_title_icon">
+                          <svg class="icon icon_arrow-faq icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#arrow-faq"></use>
+                          </svg>
+                        </div>
+                      </div>
+                      <table class="js-fixed-table-content">
+                        <tr>
+                          <td>Business email</td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                        </tr>
+                        <tr>
+                          <td>Custom email for your business</td>
+                          <td>—</td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                        </tr>
+                        <tr>
+                          <td>Phishing and spam protection that blocks more than 99.9% of attacks</td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                        </tr>
+                        <tr>
+                          <td>Video and voice conferencing</td>
+                          <td>Fundamental</td>
+                          <td>Fundamental</td>
+                          <td>Advanced</td>
+                        </tr>
+                        <tr>
+                          <td>Secure cloud storage</td>
+                          <td>—</td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                        </tr>
+                        <tr>
+                          <td>US or international dial-in phone numbers</td>
+                          <td>—</td>
+                          <td>—</td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="features__list_content js-fixed-table-wrap features__list_content--active_state" style="z-index: 1">
+                      <div class="features__list_title_wrap js-table-trigger js-fixed-table-target">
+                        <div class="features__list_title_overlay js-table-overlay"></div>
+                        <div class="features__list_title">Productivity &amp; Collaboration</div>
+                        <div class="features__list_title_icon">
+                          <svg class="icon icon_arrow-faq icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#arrow-faq"></use>
+                          </svg>
+                        </div>
+                      </div>
+                      <table class="js-fixed-table-content">
+                        <tr>
+                          <td>Business email</td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                        </tr>
+                        <tr>
+                          <td>Custom email for your business</td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                        </tr>
+                        <tr>
+                          <td>Phishing and spam protection that blocks more than 99.9% of attacks</td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                        </tr>
+                        <tr>
+                          <td>Video and voice conferencing</td>
+                          <td>100 participants</td>
+                          <td>150 participants</td>
+                          <td>500 participants</td>
+                        </tr>
+                        <tr>
+                          <td>Secure cloud storage</td>
+                          <td>30GB</td>
+                          <td>2TB</td>
+                          <td>5TB</td>
+                        </tr>
+                        <tr>
+                          <td>US or international dial-in phone numbers</td>
+                          <td>—</td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                        </tr>
+                        <tr>
+                          <td>Meeting length (maximum)</td>
+                          <td>24 hours</td>
+                          <td>24 hours</td>
+                          <td>24 hours</td>
+                        </tr>
+                        <tr>
+                          <td>Digital whiteboarding</td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                        </tr>
+                        <tr>
+                          <td>Drive for desktop</td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                        </tr>
+                        <tr>
+                          <td>Support for over 100 file types</td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                        </tr>
+                        <tr>
+                          <td>Shared drives for team</td>
+                          <td>—</td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                        </tr>
+                        <tr>
+                          <td>Target audience sharing</td>
+                          <td>—</td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                        </tr>
+                        <tr>
+                          <td>Team messaging</td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                        </tr>
+                        <tr>
+                          <td>Turn history on or off by default</td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                        </tr>
+                        <tr>
+                          <td>One-to-one external chat</td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                        </tr>
+                        <tr>
+                          <td>Advanced chat rooms, including threaded rooms and guest access</td>
+                          <td>—</td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                        </tr>
+                        <tr>
+                          <td>Shared calendars</td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                        </tr>
+                        <tr>
+                          <td>Appointment booking pages</td>
+                          <td>—</td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                        </tr>
+                        <tr>
+                          <td>Browse and reserve conference rooms</td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                        </tr>
+                        <tr>
+                          <td>Collaborative content creation</td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                        </tr>
+                        <tr>
+                          <td>Keep Shared Notes</td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                        </tr>
+                        <tr>
+                          <td>Sites website builder</td>
+                          <td>—</td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                        </tr>
+                        <tr>
+                          <td>Forms survey builder</td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                          <td><span class="features__col_icon_w">
+                              <svg class="icon icon_plans-check icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#plans-check"></use>
+                              </svg></span></td>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section faq_section">
+          <div class="section_in faq_section__in">
+            <div class="faq_section__content">
+              <h2 class="faq_section__title">Frequently Asked Questions</h2>
+              <ul class="faq_section__list">
+                <li class="faq_section__item">
+                  <div class="faq_section__item_head js-acc-trigger">
+                    <h3 class="faq_section__item_title">Can I change my plan later?</h3>
+                    <div class="faq_section__item_icon">
+                      <svg class="icon icon_arrow-faq icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#arrow-faq"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="faq_section__item_body">
+                    <div class="faq_section__item_wrap">
+                      <div class="faq_section__item_text">
+                        <p>Yes! You can upgrade your subscription plan from within your account at any time.</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="faq_section__item">
+                  <div class="faq_section__item_head js-acc-trigger">
+                    <h3 class="faq_section__item_title">How can I manage my billing?</h3>
+                    <div class="faq_section__item_icon">
+                      <svg class="icon icon_arrow-faq icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#arrow-faq"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="faq_section__item_body">
+                    <div class="faq_section__item_wrap">
+                      <div class="faq_section__item_text">
+                        <p>Yes! You can upgrade your subscription plan from within your account at any time.</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="faq_section__item">
+                  <div class="faq_section__item_head js-acc-trigger">
+                    <h3 class="faq_section__item_title">Do you offer any discounted plans?</h3>
+                    <div class="faq_section__item_icon">
+                      <svg class="icon icon_arrow-faq icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#arrow-faq"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="faq_section__item_body">
+                    <div class="faq_section__item_wrap">
+                      <div class="faq_section__item_text">
+                        <p>Yes! You can upgrade your subscription plan from within your account at any time.</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="faq_section__item">
+                  <div class="faq_section__item_head js-acc-trigger">
+                    <h3 class="faq_section__item_title">Which pricing plan is right for me?</h3>
+                    <div class="faq_section__item_icon">
+                      <svg class="icon icon_arrow-faq icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#arrow-faq"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="faq_section__item_body">
+                    <div class="faq_section__item_wrap">
+                      <div class="faq_section__item_text">
+                        <p>Yes! You can upgrade your subscription plan from within your account at any time.</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="faq_section__item">
+                  <div class="faq_section__item_head js-acc-trigger">
+                    <h3 class="faq_section__item_title">Is there a free version of solutions?</h3>
+                    <div class="faq_section__item_icon">
+                      <svg class="icon icon_arrow-faq icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#arrow-faq"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="faq_section__item_body">
+                    <div class="faq_section__item_wrap">
+                      <div class="faq_section__item_text">
+                        <p>Yes! You can upgrade your subscription plan from within your account at any time.</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="section customer_requests customer_requests--light_mod">
+          <div class="section_in customer_requests_in">
+            <h2 class="customer_requests__title">Can’t find the answer you’re looking for?</h2>
+            <div class="cards_requests">
+              <div class="cards_requests__wrapper">
+                <div class="cards_requests__card">
+                  <div class="cards_requests__title">Get answers</div>
+                  <div class="cards_requests__text">Read in-depth articles on any topic of interest to you in MasterIntegrator Help Centre.</div>
+                  <div class="cards_requests__btn"><a class="cards_requests__link" href="#">Go to Help Center<span class="cards_requests__icon">
+                        <svg class="icon icon_arrow-right icon--size_mod">
+                          <use xlink:href="images/sprite/sprite.svg#arrow-right"></use>
+                        </svg></span></a></div>
+                </div>
+              </div>
+              <div class="cards_requests__wrapper">
+                <div class="cards_requests__card">
+                  <div class="cards_requests__title">Contact us</div>
+                  <div class="cards_requests__text">Get support by chat or schedule a call with our Customer care team.</div>
+                  <div class="cards_requests__btn"><a class="cards_requests__link" href="#">Chat with us<span class="cards_requests__icon">
+                        <svg class="icon icon_arrow-right icon--size_mod">
+                          <use xlink:href="images/sprite/sprite.svg#arrow-right"></use>
+                        </svg></span></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer class="footer">
+        <div class="footer__top">
+          <div class="footer__wrap"><a class="footer__logo" href="index.html"><img class="footer__logo_img footer__logo_img--desktop_mod" src="images/logo.svg" alt="logo"><img class="footer__logo_img footer__logo_img--mobile_mod" src="images/logo-mob-futer.svg" alt="logo"></a>
+            <ul class="footer__social footer__social--mobile_mod">
+              <li class="footer__social_item"><a class="footer__social_link" href="#" target="_blank">
+                  <svg class="icon icon_Linkedin icon--size_mod">
+                    <use xlink:href="images/sprite/sprite.svg#Linkedin"></use>
+                  </svg></a></li>
+              <li class="footer__social_item"><a class="footer__social_link" href="#" target="_blank">
+                  <svg class="icon icon_Tictok icon--size_mod">
+                    <use xlink:href="images/sprite/sprite.svg#Tictok"></use>
+                  </svg></a></li>
+              <li class="footer__social_item"><a class="footer__social_link" href="#" target="_blank">
+                  <svg class="icon icon_insagram icon--size_mod">
+                    <use xlink:href="images/sprite/sprite.svg#insagram"></use>
+                  </svg></a></li>
+              <li class="footer__social_item"><a class="footer__social_link" href="#" target="_blank">
+                  <svg class="icon icon_facebook icon--size_mod">
+                    <use xlink:href="images/sprite/sprite.svg#facebook"></use>
+                  </svg></a></li>
+            </ul>
+          </div>
+          <ul class="footer__menu">
+            <li class="footer__menu_item"><a class="footer__menu_link" href="#">Features</a></li>
+            <li class="footer__menu_item"><a class="footer__menu_link" href="#">Pricing</a></li>
+            <li class="footer__menu_item"><a class="footer__menu_link" href="#">Help center</a></li>
+            <li class="footer__menu_item"><a class="footer__menu_link" href="#">Customer stories</a></li>
+            <li class="footer__menu_item"><a class="footer__menu_link" href="#">About us</a></li>
+            <li class="footer__menu_item"><a class="footer__menu_link" href="#">Contact us</a></li>
+          </ul>
+          <ul class="footer__links_list footer__links_list--mobile_mod">
+            <li class="footer__links_item"><a class="footer__link" href="#">Privacy policy</a></li>
+            <li class="footer__links_item"><a class="footer__link" href="#">Terms of use</a></li>
+          </ul>
+        </div>
+        <div class="footer__bottom">
+          <div class="footer__copy">
+            <p>© 2023 MasterIntegrator. All Rights Reserved.</p>
+          </div>
+          <ul class="footer__social footer__social--desktop_mod">
+            <li class="footer__social_item"><a class="footer__social_link" href="#" target="_blank">
+                <svg class="icon icon_Linkedin icon--size_mod">
+                  <use xlink:href="images/sprite/sprite.svg#Linkedin"></use>
+                </svg></a></li>
+            <li class="footer__social_item"><a class="footer__social_link" href="#" target="_blank">
+                <svg class="icon icon_Tictok icon--size_mod">
+                  <use xlink:href="images/sprite/sprite.svg#Tictok"></use>
+                </svg></a></li>
+            <li class="footer__social_item"><a class="footer__social_link" href="#" target="_blank">
+                <svg class="icon icon_insagram icon--size_mod">
+                  <use xlink:href="images/sprite/sprite.svg#insagram"></use>
+                </svg></a></li>
+            <li class="footer__social_item"><a class="footer__social_link" href="#" target="_blank">
+                <svg class="icon icon_facebook icon--size_mod">
+                  <use xlink:href="images/sprite/sprite.svg#facebook"></use>
+                </svg></a></li>
+          </ul>
+          <ul class="footer__links_list footer__links_list--desktop_mod">
+            <li class="footer__links_item"><a class="footer__link" href="#">Privacy policy</a></li>
+            <li class="footer__links_item"><a class="footer__link" href="#">Terms of use</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <div class="popup_in">
+      <div class="popup_form js-popup-form" data-popup="popup_partner">
+        <div class="popup_form__body">
+          <div class="popup_form__in js-popup-form-content">
+            <button class="popup_form__close js-popup-form-btn-close" type="button" aria-label="close popup form"></button>
+            <div class="popup_form__wrap">
+              <h3 class="popup_form__title">Become a partner</h3>
+              <form action="" method="post">
+                <div class="popup_form__col">
+                  <div class="popup_form__row">
+                    <div class="form_input">
+                      <label class="popup_input__label" for="name">First Name*</label>
+                      <div class="form_input__field">
+                        <input class="popup_input__element" type="text" id="name" placeholder="" name="fname" required="required">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="popup_form__row">
+                    <div class="form_input">
+                      <label class="popup_input__label" for="last_name">Last Name*</label>
+                      <div class="form_input__field">
+                        <input class="popup_input__element" type="text" id="last_name" placeholder="" name="lname" required="required">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="popup_form__row">
+                    <div class="form_input">
+                      <label class="popup_input__label" for="business_email">Business email*</label>
+                      <div class="form_input__field">
+                        <input class="popup_input__element" type="email" id="business_email" placeholder="" name="email" required="required">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="popup_form__row">
+                    <div class="form_input">
+                      <label class="popup_input__label" for="company">Company*</label>
+                      <div class="form_input__field">
+                        <input class="popup_input__element" type="text" id="company" placeholder="" name="company" required="required">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="popup_form__row">
+                    <div class="form_input">
+                      <label class="popup_input__label" for="country">Country*</label>
+                      <div class="form_input__field">
+                        <input class="popup_input__element" type="text" id="country" placeholder="" name="country" required="required">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="popup_form__btn_w">
+                  <button class="btn_green_2 popup_form__btn js-popup-form-submit" type="submit">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="popup_form__message js-popup-message">
+            <div class="popup_form__message_in js-popup-form-content">
+              <button class="popup_message__close js-popup-form-btn-close" type="button" aria-label="close popup message"></button>
+              <div class="popup_form__message_wrap">
+                <h3 class="popup_form__message_title">Thank you for your message</h3>
+                <div class="popup_form__message_text">
+                  <p>We will reply within 2-3 business days</p>
+                </div>
+                <div class="popup_form__message_btn_w">
+                  <button class="btn_green_2 popup_form__message_btn js-popup-form-btn-close" type="submit">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup_form js-popup-form" data-popup="popup_team">
+        <div class="popup_form__body">
+          <div class="popup_form__in js-popup-form-content">
+            <button class="popup_form__close js-popup-form-btn-close" type="button" aria-label="close popup form"></button>
+            <div class="popup_form__wrap">
+              <h3 class="popup_form__title">Join the MasterIntegrator team</h3>
+              <form action="" method="post">
+                <div class="popup_form__col">
+                  <div class="popup_form__row">
+                    <div class="form_input">
+                      <label class="popup_input__label" for="name">First Name*</label>
+                      <div class="form_input__field">
+                        <input class="popup_input__element" type="text" id="name" placeholder="" name="fname" required="required">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="popup_form__row">
+                    <div class="form_input">
+                      <label class="popup_input__label" for="last_name">Last Name*</label>
+                      <div class="form_input__field">
+                        <input class="popup_input__element" type="text" id="last_name" placeholder="" name="lname" required="required">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="popup_form__row">
+                    <div class="form_input">
+                      <label class="popup_input__label" for="email">Email*</label>
+                      <div class="form_input__field">
+                        <input class="popup_input__element" type="email" id="email" placeholder="" name="email" required="required">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="popup_form__row">
+                    <div class="popup_input__label">Resume*</div>
+                    <input class="popup_form__file_input js-input-file" id="attach_resume" type="file" required="required" name="attach resume">
+                    <label class="popup_form__file_label" for="attach_resume">Attach resume<span class="popup_form__file_icon">
+                        <svg class="icon icon_file icon--size_mod">
+                          <use xlink:href="images/sprite/sprite.svg#file"></use>
+                        </svg></span></label><span class="popup_form__file_name"></span>
+                  </div>
+                  <div class="popup_form__row">
+                    <div class="form_input">
+                      <label class="popup_input__label" for="linkedin_profile">LinkedIn profile URL</label>
+                      <div class="form_input__field">
+                        <input class="popup_input__element" type="url" id="linkedin_profile" placeholder="" name="LinkedIn profile">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="popup_form__btn_w">
+                  <button class="btn_green_2 popup_form__btn js-popup-form-submit" type="submit">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="popup_form__message js-popup-message">
+            <div class="popup_form__message_in js-popup-form-content">
+              <button class="popup_message__close js-popup-form-btn-close" type="button" aria-label="close popup message"></button>
+              <div class="popup_form__message_wrap">
+                <h3 class="popup_form__message_title">Thank you, we have received your resume</h3>
+                <div class="popup_form__message_text">
+                  <p>Your data are entered into the personnel database, HR-manager will contact you when the appropriate position will be opened.</p>
+                </div>
+                <div class="popup_form__message_btn_w">
+                  <button class="btn_green_2 popup_form__message_btn js-popup-form-btn-close" type="submit">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <script defer src="js/runtime.js"></script><script defer src="js/app.js"></script></body>
+</html>

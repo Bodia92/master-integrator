@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en" data-template-name="index">
+  <head>
+    <meta charset="UTF-8">
+    <title>development | About-us-page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="images/favicon.ico">
+  <link href="css/app.css" rel="stylesheet"></head>
+  <body class="body--header_green_mod">
+    <div class="preloader"></div>
+    <header class="header">
+      <div class="header__in">
+        <div class="header__wrap"><a class="header__logo" href="index.html"><img class="header__logo_img" src="images/logo.svg" alt="logo"></a>
+          <div class="header__menu_body js-menu-body">
+            <div class="header__menu_top"><a class="header__logo_mob" href="#"><img class="header__logo_img" src="images/logo_mob.svg" alt="logo"></a>
+              <button class="header__menu_close js-menu-close" type="button" aria-label="menu close"></button>
+            </div>
+            <div class="header__menu_wrap">
+              <div class="header__menu_in">
+                <nav class="header_menu">
+                  <ul class="header_menu__list ">
+                    <li class="header_menu__item js-menu-select  "><a class="header_menu__link " href="#" data-text="Features">Features</a>
+                    </li>
+                    <li class="header_menu__item js-menu-select  ">
+                      <div class="header_menu__wrap">
+                        <button class="header_menu__link header_menu__link--submenu js-submenu-trigger" type="button" data-text="Products">Products
+                          <div class="header_menu__icon_wrap">
+                            <svg class="icon icon_arrow_link icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#arrow_link"></use>
+                            </svg>
+                          </div>
+                        </button>
+                        <div class="submenu js-submenu">
+                          <div class="submenu__wrap js-submenu-wrap">
+                            <ul class="submenu__list">
+                              <li class="submenu__item "><a class="submenu__link" href="#">
+                                  <h6 class="submenu__link_title">Workspace</h6>
+                                  <div class="submenu__link_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</div></a></li>
+                              <li class="submenu__item "><a class="submenu__link" href="#">
+                                  <h6 class="submenu__link_title">WIX</h6>
+                                  <div class="submenu__link_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </div></a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="header_menu__item js-menu-select  "><a class="header_menu__link " href="#" data-text="Pricing">Pricing</a>
+                    </li>
+                    <li class="header_menu__item js-menu-select  "><a class="header_menu__link " href="#" data-text="Customer stories">Customer stories</a>
+                    </li>
+                    <li class="header_menu__item js-menu-select  "><a class="header_menu__link " href="#" data-text="About">About</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="header__info">
+                <ul class="header__info__list header__info__list--desktop_mod">
+                  <li class="header__info__item"><a class="header__console_link" href="#">Console</a></li>
+                  <li class="header__info__item"><a class="header__user" href="#">
+                      <svg class="icon icon_user icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#user"></use>
+                      </svg></a></li>
+                </ul>
+                <ul class="header__info__list header__info__list--mob_mod">
+                  <li class="header__info__item"><a class="header__info_link" href="#">Help center</a></li>
+                  <li class="header__info__item"><a class="header__info_link" href="#">Contact us</a></li>
+                </ul>
+                <div class="header__langues">
+                  <button class="header__langues_btn js-lang-trigger" type="button" aria-label="langue en">EN
+                    <div class="header__langues_arrow">
+                      <svg class="icon icon_arrow_link icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#arrow_link"></use>
+                      </svg>
+                    </div>
+                  </button>
+                  <div class="lang_menu js-lang-menu">
+                    <div class="lang_menu__wrap">
+                      <button class="lang_menu__close js-lang-menu-close" type="button" aria-hidden="lang menu close">Back
+                        <div class="lang_menu__close_icon">
+                          <svg class="icon icon_arrow-left icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#arrow-left"></use>
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                    <ul class="lang_menu__list">
+                      <li class="lang_menu__item lang_menu__item--active_mod"><a class="lang_menu__link" href="#"><span class="lang_menu__link_title lang_menu__link_title--dec_mod">En</span><span class="lang_menu__link_title lang_menu__link_title--mob_mod">English</span></a></li>
+                      <li class="lang_menu__item"><a class="lang_menu__link" href="#"><span class="lang_menu__link_title lang_menu__link_title--dec_mod">Fr</span><span class="lang_menu__link_title lang_menu__link_title--mob_mod">Français</span></a></li>
+                      <li class="lang_menu__item"><a class="lang_menu__link" href="#"><span class="lang_menu__link_title lang_menu__link_title--dec_mod">De</span><span class="lang_menu__link_title lang_menu__link_title--mob_mod">Deutsch</span></a></li>
+                      <li class="lang_menu__item"><a class="lang_menu__link" href="#"><span class="lang_menu__link_title lang_menu__link_title--dec_mod">It</span><span class="lang_menu__link_title lang_menu__link_title--mob_mod">Italiano</span></a></li>
+                      <li class="lang_menu__item"><a class="lang_menu__link" href="#"><span class="lang_menu__link_title lang_menu__link_title--dec_mod">Pl</span><span class="lang_menu__link_title lang_menu__link_title--mob_mod">Polski</span></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="header_trigger js-menu-trigger" type="button" aria-label="Toggle menu"><span class="header_trigger__decor"></span></button>
+        </div>
+      </div>
+    </header>
+    <div class="wrapper">
+      <div class="base">
+        <section class="section about_us">
+          <div class="section_in about_us__in">
+            <div class="about_us__header">
+              <div class="about_us__top">
+                <h1 class="about_us__title">Empowering SMBs for business success through digital solutions</h1>
+              </div>
+            </div>
+            <div class="about_us__body">
+              <div class="about_us__list_wrapper">
+                <ul class="about_us__list">
+                  <li class="about_us__list_item">
+                    <h2 class="about_us__list_item_title">Our mission</h2>
+                    <div class="about_us__list_item_content">
+                      <p><strong>Our mission is to reignite the entrepreneurial spirit in business by enabling success through great ideas and innovation.</strong></p>
+                      <p>Through technology, we aim to make life easier for small and medium-sized businesses by reducing regulatory and administrative burdens while providing one-click access to global financial and human capital.</p>
+                    </div>
+                  </li>
+                  <li class="about_us__list_item">
+                    <h2 class="about_us__list_item_title">Our goal</h2>
+                    <div class="about_us__list_item_content">
+                      <p>Our goal is to provide all businesses, regardless of their size, capital, or market, with a unified, adaptable, and scalable ecosystem for accessing digital best-practice tools and providing organization-wide business intelligence via active data and reporting integration with any connected application.</p>
+                      <p><strong>We recognize that adaptation and scalability are critical to successful business operations and strive to make them available to all enterprises.</strong></p>
+                    </div>
+                  </li>
+                  <li class="about_us__list_item">
+                    <h2 class="about_us__list_item_title">Our teams</h2>
+                    <div class="about_us__list_item_content">
+                      <p>At MasterIntegrator, we are proud of our dedicated and knowledgeable team, which includes top-tier technology specialists.</p>
+                      <p>Our experts have years of experience in the industry and are passionate about bringing their extensive knowledge and expertise to every project, helping our clients achieve their goals.</p>
+                      <ul class="about_us__team_list">
+                                <li class="team_card">
+                                  <div class="team_card__image"> 
+                                    <picture class="team_card__picture">
+                                      <source srcset="images/about-us/01.jpg" type="image/jpeg"><img class="team_card__img" src="images/about-us/01.jpg" alt="Anton Arutyunyan" loading="eager">
+                                    </picture>
+                                  </div>
+                                  <div class="team_card__content">
+                                    <div class="team_card__quotes"><span>«</span></div>
+                                    <div class="team_card__text">
+                                      <p>
+                                        <q>Our team is our greatest asset, and we are committed to providing them with the support and resources they need to continue to improve.</q>
+                                      </p>
+                                    </div>
+                                    <div class="team_card__name">
+                                      <p>Anton Arutyunyan</p>
+                                    </div>
+                                    <div class="team_card__position">
+                                      <p><span>CDTO</span><a class="team_card__social" href="#" aria-label="profile link">
+                                          <svg class="icon icon_linkedinCircle icon--size_mod">
+                                            <use xlink:href="images/sprite/sprite.svg#linkedinCircle"></use>
+                                          </svg></a></p>
+                                    </div>
+                                  </div>
+                                </li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section offer_block">
+          <div class="offer_block__in">
+            <div class="offer_block__content">
+              <ul class="offer_block__list">
+                <li class="offer_block__item">
+                  <h3 class="offer_block__item_title">Join us at Masterintegrator</h3>
+                  <div class="offer_block__item_text">
+                    <p>If you’re looking for a workplace that builds technology that works for everyone. MasterIntegrator is the place for you.</p>
+                  </div><a class="offer_block__item_link js-popup-form-trigger" href="#" data-popup-trigger="popup_partner">Join the team
+                    <div class="offer_block__item_link_icon">
+                      <svg class="icon icon_arrow-right icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#arrow-right"></use>
+                      </svg>
+                    </div></a>
+                </li>
+                <li class="offer_block__item">
+                  <h3 class="offer_block__item_title">Become a partner</h3>
+                  <div class="offer_block__item_text">
+                    <p>Are you a company or supplier specializing in SaaS solutions? Join our partner program to attract new customers, develop your technology, and generate additional revenue.</p>
+                  </div><a class="offer_block__item_link js-popup-form-trigger" href="#" data-popup-trigger="popup_team">Join our partner network
+                    <div class="offer_block__item_link_icon">
+                      <svg class="icon icon_arrow-right icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#arrow-right"></use>
+                      </svg>
+                    </div></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer class="footer">
+        <div class="footer__top">
+          <div class="footer__wrap"><a class="footer__logo" href="index.html"><img class="footer__logo_img footer__logo_img--desktop_mod" src="images/logo.svg" alt="logo"><img class="footer__logo_img footer__logo_img--mobile_mod" src="images/logo-mob-futer.svg" alt="logo"></a>
+            <ul class="footer__social footer__social--mobile_mod">
+              <li class="footer__social_item"><a class="footer__social_link" href="#" target="_blank">
+                  <svg class="icon icon_Linkedin icon--size_mod">
+                    <use xlink:href="images/sprite/sprite.svg#Linkedin"></use>
+                  </svg></a></li>
+              <li class="footer__social_item"><a class="footer__social_link" href="#" target="_blank">
+                  <svg class="icon icon_Tictok icon--size_mod">
+                    <use xlink:href="images/sprite/sprite.svg#Tictok"></use>
+                  </svg></a></li>
+              <li class="footer__social_item"><a class="footer__social_link" href="#" target="_blank">
+                  <svg class="icon icon_insagram icon--size_mod">
+                    <use xlink:href="images/sprite/sprite.svg#insagram"></use>
+                  </svg></a></li>
+              <li class="footer__social_item"><a class="footer__social_link" href="#" target="_blank">
+                  <svg class="icon icon_facebook icon--size_mod">
+                    <use xlink:href="images/sprite/sprite.svg#facebook"></use>
+                  </svg></a></li>
+            </ul>
+          </div>
+          <ul class="footer__menu">
+            <li class="footer__menu_item"><a class="footer__menu_link" href="#">Features</a></li>
+            <li class="footer__menu_item"><a class="footer__menu_link" href="#">Pricing</a></li>
+            <li class="footer__menu_item"><a class="footer__menu_link" href="#">Help center</a></li>
+            <li class="footer__menu_item"><a class="footer__menu_link" href="#">Customer stories</a></li>
+            <li class="footer__menu_item"><a class="footer__menu_link" href="#">About us</a></li>
+            <li class="footer__menu_item"><a class="footer__menu_link" href="#">Contact us</a></li>
+          </ul>
+          <ul class="footer__links_list footer__links_list--mobile_mod">
+            <li class="footer__links_item"><a class="footer__link" href="#">Privacy policy</a></li>
+            <li class="footer__links_item"><a class="footer__link" href="#">Terms of use</a></li>
+          </ul>
+        </div>
+        <div class="footer__bottom">
+          <div class="footer__copy">
+            <p>© 2023 MasterIntegrator. All Rights Reserved.</p>
+          </div>
+          <ul class="footer__social footer__social--desktop_mod">
+            <li class="footer__social_item"><a class="footer__social_link" href="#" target="_blank">
+                <svg class="icon icon_Linkedin icon--size_mod">
+                  <use xlink:href="images/sprite/sprite.svg#Linkedin"></use>
+                </svg></a></li>
+            <li class="footer__social_item"><a class="footer__social_link" href="#" target="_blank">
+                <svg class="icon icon_Tictok icon--size_mod">
+                  <use xlink:href="images/sprite/sprite.svg#Tictok"></use>
+                </svg></a></li>
+            <li class="footer__social_item"><a class="footer__social_link" href="#" target="_blank">
+                <svg class="icon icon_insagram icon--size_mod">
+                  <use xlink:href="images/sprite/sprite.svg#insagram"></use>
+                </svg></a></li>
+            <li class="footer__social_item"><a class="footer__social_link" href="#" target="_blank">
+                <svg class="icon icon_facebook icon--size_mod">
+                  <use xlink:href="images/sprite/sprite.svg#facebook"></use>
+                </svg></a></li>
+          </ul>
+          <ul class="footer__links_list footer__links_list--desktop_mod">
+            <li class="footer__links_item"><a class="footer__link" href="#">Privacy policy</a></li>
+            <li class="footer__links_item"><a class="footer__link" href="#">Terms of use</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <div class="popup_in">
+      <div class="popup_form js-popup-form" data-popup="popup_partner">
+        <div class="popup_form__body">
+          <div class="popup_form__in js-popup-form-content">
+            <button class="popup_form__close js-popup-form-btn-close" type="button" aria-label="close popup form"></button>
+            <div class="popup_form__wrap">
+              <h3 class="popup_form__title">Become a partner</h3>
+              <form action="" method="post">
+                <div class="popup_form__col">
+                  <div class="popup_form__row">
+                    <div class="form_input">
+                      <label class="popup_input__label" for="name">First Name*</label>
+                      <div class="form_input__field">
+                        <input class="popup_input__element" type="text" id="name" placeholder="" name="fname" required="required">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="popup_form__row">
+                    <div class="form_input">
+                      <label class="popup_input__label" for="last_name">Last Name*</label>
+                      <div class="form_input__field">
+                        <input class="popup_input__element" type="text" id="last_name" placeholder="" name="lname" required="required">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="popup_form__row">
+                    <div class="form_input">
+                      <label class="popup_input__label" for="business_email">Business email*</label>
+                      <div class="form_input__field">
+                        <input class="popup_input__element" type="email" id="business_email" placeholder="" name="email" required="required">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="popup_form__row">
+                    <div class="form_input">
+                      <label class="popup_input__label" for="company">Company*</label>
+                      <div class="form_input__field">
+                        <input class="popup_input__element" type="text" id="company" placeholder="" name="company" required="required">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="popup_form__row">
+                    <div class="form_input">
+                      <label class="popup_input__label" for="country">Country*</label>
+                      <div class="form_input__field">
+                        <input class="popup_input__element" type="text" id="country" placeholder="" name="country" required="required">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="popup_form__btn_w">
+                  <button class="btn_green_2 popup_form__btn js-popup-form-submit" type="submit">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="popup_form__message js-popup-message">
+            <div class="popup_form__message_in js-popup-form-content">
+              <button class="popup_message__close js-popup-form-btn-close" type="button" aria-label="close popup message"></button>
+              <div class="popup_form__message_wrap">
+                <h3 class="popup_form__message_title">Thank you for your message</h3>
+                <div class="popup_form__message_text">
+                  <p>We will reply within 2-3 business days</p>
+                </div>
+                <div class="popup_form__message_btn_w">
+                  <button class="btn_green_2 popup_form__message_btn js-popup-form-btn-close" type="submit">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup_form js-popup-form" data-popup="popup_team">
+        <div class="popup_form__body">
+          <div class="popup_form__in js-popup-form-content">
+            <button class="popup_form__close js-popup-form-btn-close" type="button" aria-label="close popup form"></button>
+            <div class="popup_form__wrap">
+              <h3 class="popup_form__title">Join the MasterIntegrator team</h3>
+              <form action="" method="post">
+                <div class="popup_form__col">
+                  <div class="popup_form__row">
+                    <div class="form_input">
+                      <label class="popup_input__label" for="name">First Name*</label>
+                      <div class="form_input__field">
+                        <input class="popup_input__element" type="text" id="name" placeholder="" name="fname" required="required">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="popup_form__row">
+                    <div class="form_input">
+                      <label class="popup_input__label" for="last_name">Last Name*</label>
+                      <div class="form_input__field">
+                        <input class="popup_input__element" type="text" id="last_name" placeholder="" name="lname" required="required">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="popup_form__row">
+                    <div class="form_input">
+                      <label class="popup_input__label" for="email">Email*</label>
+                      <div class="form_input__field">
+                        <input class="popup_input__element" type="email" id="email" placeholder="" name="email" required="required">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="popup_form__row">
+                    <div class="popup_input__label">Resume*</div>
+                    <input class="popup_form__file_input js-input-file" id="attach_resume" type="file" required="required" name="attach resume">
+                    <label class="popup_form__file_label" for="attach_resume">Attach resume<span class="popup_form__file_icon">
+                        <svg class="icon icon_file icon--size_mod">
+                          <use xlink:href="images/sprite/sprite.svg#file"></use>
+                        </svg></span></label><span class="popup_form__file_name"></span>
+                  </div>
+                  <div class="popup_form__row">
+                    <div class="form_input">
+                      <label class="popup_input__label" for="linkedin_profile">LinkedIn profile URL</label>
+                      <div class="form_input__field">
+                        <input class="popup_input__element" type="url" id="linkedin_profile" placeholder="" name="LinkedIn profile">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="popup_form__btn_w">
+                  <button class="btn_green_2 popup_form__btn js-popup-form-submit" type="submit">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="popup_form__message js-popup-message">
+            <div class="popup_form__message_in js-popup-form-content">
+              <button class="popup_message__close js-popup-form-btn-close" type="button" aria-label="close popup message"></button>
+              <div class="popup_form__message_wrap">
+                <h3 class="popup_form__message_title">Thank you, we have received your resume</h3>
+                <div class="popup_form__message_text">
+                  <p>Your data are entered into the personnel database, HR-manager will contact you when the appropriate position will be opened.</p>
+                </div>
+                <div class="popup_form__message_btn_w">
+                  <button class="btn_green_2 popup_form__message_btn js-popup-form-btn-close" type="submit">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <script defer src="js/runtime.js"></script><script defer src="js/app.js"></script></body>
+</html>
